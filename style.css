@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1f2937; /* that dark navy/slate hue */
+    padding-bottom: 80px;      /* creates ample space below the hero content */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto; /* centers the container horizontally on the screen */
+    padding: 16px 24px; /* inner breathing room */
+}
+
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.herosection{
+    display: flex;
+    gap: 32px;
+    max-width: 1000px;
+margin: 0 auto;
+}
+
+.herosection .left,
+.herosection .right {
+    flex: 1; /* Both take an equal 50% slice of the available space */
+}
+.left h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900px;
+}
+.left p{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 28px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.right{
+    background-color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+
+.info-section {
+    background-color:#ffffff ;
+    padding-bottom: 80px;
+
+}
+.info-section h2{
+    text-align: center;
+    font-size: 36px;
+    Color: #1F2937;
+    font-weight: 900;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  
+}
+
+
+.card {
+    width: 150px;
+    text-align: center; /* centers the text underneath the box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the box horizontally inside the card */
+    gap: 8px; /* space between square and text */
+}
+
+.illustration-box {
+    width: 140px;
+    height: 140px;
+    border: 4px solid #3882F6;
+    border-radius: 16px; /* gives the rounded square shape */
+}
+
+.subtext {
+    font-size: 14px;
+    color: #4b5563; /* soft, readable gray */
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+
+    padding-bottom: 80px;
+    display: flex;
+   
+}
+.quote-container {
+    max-width: 800px;
+    margin: 0 auto; /* centers the whole text block horizontally */
+    padding: 80px 24px; /* generous top & bottom breathing room */
+}
+
+.quote-text{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    max-width: 1000px;
+    justify-content: center;
+    
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    color: black;
+    justify-content: space-between;
+}
+
+.cta-section {
+    padding: 100px 24px;
+    background-color: #ffffff;
+}
+
+.cta-card {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 48px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cta-text h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.cta-text p {
+    color: #e5e7eb;
+    font-size: 15px;
+}
